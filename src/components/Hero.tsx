@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
           <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
             <a
-              href="https://www.npmjs.com/package/react-audio-kit?activeTab=readme"
+              href="https://665800319184af3165bed18d-vdlmqjbpua.chromatic.com/?path=/docs/components-audioplayer--docs"
               className="block py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
               target="blank"
             >
