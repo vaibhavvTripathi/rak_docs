@@ -83,6 +83,7 @@ const AnimatedTooltip = ({
           onMouseLeave={() => setHoveredIndex(null)}
           href={item.href}
           target="blank"
+  
         >
           {hoveredIndex === item.id && (
             <motion.div

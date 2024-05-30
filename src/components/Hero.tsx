@@ -5,10 +5,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="bg-gray-50 border" style={{height:"100vh"}}>
       <div className="max-w-screen-xl mx-auto px-4 mt-28 gap-12 text-gray-600 md:px-8">
         <div className="space-y-8  mx-auto text-center">
-        <MySocials />
           <div>
             <h1 className="text-sm text-indigo-600 font-medium">
               Built for audio enthusiasts
@@ -34,7 +33,7 @@ const Hero = () => {
               className="block py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
               target="blank"
             >
-              Get started
+              Read docs
             </a>
             <a
               href="https://github.com/vaibhavvTripathi/react-audio-kit"
@@ -44,8 +43,10 @@ const Hero = () => {
               Contribute
             </a>
           </div>
-          {/* <MySocials /> */}
         </div>
+      </div>
+      <div className="mt-5 w-fit pt-10 mx-auto">
+        <MySocials />
       </div>
     </section>
   );
